@@ -1,0 +1,169 @@
+
+#body
+{
+background-color: rgba(192, 192, 192, 0.3);
+}
+
+
+#cor
+{
+border-style:groove ; border-width:9px ; border-color:blue;
+ border-radius: 10px;
+
+
+			
+ 
+}
+
+
+
+
+
+
+
+
+
+
+#text
+{
+	 position: absolute;
+			 border-radius: 0px 0px 5px 5px;
+			 width: 50.5%;
+			 height: 33px;
+			 padding-bottom: 350px;
+			 padding-left: 69px;
+			 
+			 opacity:1.9;
+			 color: white;
+			 font-size: 1.5em;
+			 bottom: 0;
+}
+
+
+#reno
+
+{
+ position: absolute;
+			
+			 height: 33px;
+			 padding-bottom: 470px;
+			 padding-right: 300px;
+margin-right:700px;
+			 
+			 opacity:1.9;
+			 color: white;
+			 font-size: 1.5em;
+			 bottom: 0;
+                         text-align: center;
+                         font-family:Crepitus-monogram,sans-serif;
+}
+
+nav
+{
+	display: inline-block;
+	width: 910px;
+	text-align: center;
+        
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #181818;
+	padding-bottom: 3px;
+}
+
+nav a:focus
+{
+	color: lime;
+}	
+
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+
+}
+
+
+article
+{
+	width: 580px;
+	margin-left: 10px;
+}
+
+aside
+{
+	width: 260px;
+    background-color:cyan;
+    opacity:0.8;
+    box-shadow: 0px 2px 5px #lcla19;
+    border-radius: 5px;
+    padding: 10px;
+    color: cyan;
+    font-size: 0.9em;
+}
+
+#img_nous
+{
+	text-align: center;
+}
+
+aside h1
+{
+	text-align: center;
+}	
+
+h2
+{
+border: 6px blue outset;
+border-radius: 10px;
+}
+
+#mis
+{
+	text-align: center;
+	border: none;
+	font-size: 3em;
+	color: teal;
+	
+}
+
+h2:hover
+{
+	color: lime;
+	
+}
+
+h8
+{
+        text-align: center;
+	border: solid-black;
+	font-size: 4em;
+        font-family:Cooper Black;
+	color: black;
+
+text-shadow: 2px 2px 4px black;
+
+}
+
+#ros
+{
+
+ text-align: center;
+}
+
+		

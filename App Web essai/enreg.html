@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" /> 
+    <link href="newF.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Eneam</title>
+
+    <style type="text/css">
+            
+       [class*="col"] { margin-bottom: 20px; }     
+        .form-inline { margin-top: 20px}    
+          img { width: 15%; }  
+
+           .well {      
+                
+                padding: 20px;      }   
+                h1, h2{
+                    text-align: center;
+                    width: 60%;
+                    margin-left: 20%;
+                    font-weight: bold;
+
+                } </style>
+
+</head>
+<body>
+       
+     <header class="page-header"> 
+<center>    
+    <img src="uac_logo.jpg" width=50px height=90px alt="Logo Eneam">   _____________________________________________________________________________________
+<img src="logo.jpg" width=50px height=90px alt="Logo Eneam">
+</center>
+    <h1> ENEAM </h1>
+   
+</header>
+  
+   
+        </section>
+
+        
+    <h1>Enrégistrement des Etudiants</h1>
+
+    <form action="enregistrement.php"method="POST" class="well">
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-2">Matricule</div>
+                <div class="col-lg-8">
+                        <input type="text"name="matricule" class="form-control" id="text" required>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-lg-2">Adresse</div>
+                    <div class="col-lg-8">
+                            <input type="text"name="adresse" class="form-control" id="text" required>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-lg-2">Sexe</div>
+                    <div class="col-lg-4">
+                            <select id="select"name="sexe" class="form-control" required>   
+                            <option value="homme">Homme</option>
+                             <option value="femme">Femme</option>   
+                            </select>
+                    </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-lg-2">Date de Naissance:</div>
+                    <div class="col-lg-8">
+                            <input type="date"name="dates" >
+                    </div>
+            </div>
+        
+        </div>
+        <div class="col-lg-6">
+                <div class="row">
+                        <div class="col-lg-2">Nom</div>
+                        <div class="col-lg-8">
+                                <input name="nom"type="text" class="form-control" id="text" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-lg-2">Prénom</div>
+                            <div class="col-lg-8">
+                                    <input name="prenom"type="text" class="form-control" id="text" required>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-lg-2">Filière</div>
+                            <div class="col-lg-4">
+                                    <select id="select"name="filiere" class="form-control" >   
+                                    <option value="Informatique de Gestion">Informatique de Gestion</option>
+                                     <option value="Banque et Finance">Banque et Finance</option>   
+                                     <option value="Gestion Commerciale">Gestion Commerciale</option>
+                                     <option value="Gestion des Transports et logistiques">Gestion des Transports et logistiques</option>
+                                     <option value="Statistique et Planification">Statistique et Planification</option>
+                                    </select>
+                            </div>
+                    </div>
+ <div class="row">
+                    
+       
+                <div class="row">
+                        <div class="col-lg-2"><input value="BTS"name="options"type="radio"></div>
+                        <div class="col-lg-4">
+                                <label >BTS</label></div>
+                 </div>
+                
+                <div class="row">
+                        <div class="col-lg-2"><input value="DTS" name="options"type="radio"></div>
+                        <div class="col-lg-4">
+                                <label >DTS</label></div>
+                 </div>
+        </div>
+
+    </div>
+   
+
+    <div class="row">
+            <div class="col-lg-3">
+                    <label>Nombre d'inscription:</label>
+                    <input name="inscription" type="radio" value="1" id="1"><span>1</span>
+                        <input name="inscription"type="radio" value="2"  id="2"> <span>2</span>
+</div>
+
+                   
+       
+
+<div class="col-lg-6">
+        <div class="col-lg-6">
+               
+         </div>
+            
+</div>
+
+ <div class="col-lg-6">
+           
+             </div>
+      </div>
+    
+    
+</div>
+
+
+    <div class="row">
+        <div class="offset-lg-2 col-lg-2">
+             <label for="textarea">Commentaire :</label>            
+        </div>
+        <div class="col-lg-6">
+        <textarea id="textarea" rows="7" cols="50" class="formcontrol"name="commentaire" placeholder="Ecrivez ici..."></textarea> 
+         </div>
+         
+         
+    </div>
+
+ 
+    <br/>
+    <div class="row">
+        <div class="offset-lg-3 col-lg-1"><button class="btn btn-danger" type="submit"> Enregistrer</button> </div>
+        <div class="offset-lg-2 col-lg-1"><button class="btn btn-danger" type="cancel"> Effacer</button></div>
+        <div class="offset-lg-1 col-lg-1"><button class="btn btn-danger" type="exit"> Quitter</button></div>
+    </div>
+     
+</form>
+</div>
+
+</body>
+</html>
